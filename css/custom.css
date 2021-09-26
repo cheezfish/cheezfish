@@ -66,7 +66,7 @@ h3 {
 }
 
 .boxbox {
-  padding-bottom: 10%;;
+  padding-bottom: 5%;;
 }
 
 .project {
@@ -189,4 +189,41 @@ input:checked ~ .tab-content {
 
 #lastcontainer {
     padding-bottom: 5%;
+}
+
+/* ahhahahahahahhahaha */
+
+.underlined {
+  color: rgb(255, 255, 255);
+  flex: 1;
+  font-size: 1em;
+  line-height: 1.2;
+  text-decoration: none;
+  background-image: linear-gradient(to right, yellow 0, yellow 100%);
+  background-position: 0 1.2em;
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: background 0.5s;
+}
+.underlined:hover {
+  background-size: 100% 100%;
+}
+.underlined--thin {
+  background-image: linear-gradient(to right, black 0, black 100%);
+}
+.underlined--thick {
+  background-position: 0 -0.1em;
+}
+.underlined--offset {
+  background-position: 0 0.2em;
+  box-shadow: inset 0 -0.5em 0 0 white;
+}
+.underlined--gradient {
+  background-position: 0 -0.1em;
+  background-image: linear-gradient(to right, yellow 0, lightgreen 100%);
+}
+.underlined--reverse {
+  background-position: 100% -0.1em;
+  transition: background 1s;
+  background-image: linear-gradient(to right, yellow 0, yellow 100%);
 }
