@@ -27,7 +27,7 @@ body h1 {
 
 #headshot {
   height: auto;
-  width: 100%;
+  max-width: 100%;
   bottom: -auto;
   position:relative;
   object-fit:cover;
@@ -46,8 +46,12 @@ body h1 {
   margin: 0%;
 }
 
+.socials-block {
+  display: flex;
+}
+
 .social-icon {
-  display: inline-block; margin: 0 10px;
+  display: inline-block; margin: 0 5%;
 }
 
 .about-text {
@@ -79,6 +83,12 @@ h3 {
 #contact {
   margin-bottom: 5vh;
 }
+
+#hello {
+  font-family: 'Space Mono', monospace;
+  font-size: xx-large;
+}
+
 /* Larger than mobile */
 @media (min-width: 400px) {
   #profile-text {
