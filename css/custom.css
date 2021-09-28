@@ -11,7 +11,7 @@ body h1 {
 }
 
 .container {
-  background-color:black;
+  background-color:rgb(0, 0, 0);
 }
 
 #profile-circle {
@@ -51,7 +51,7 @@ body h1 {
 }
 
 .social-icon {
-  display: inline-block; margin: 0 5%;
+  display: inline-block; margin: 0 6%;
 }
 
 .about-text {
@@ -61,16 +61,12 @@ body h1 {
 }
 
 .about-text p {
-  font-size: 110%;
+  font-size: 1.2em;
 }
 
 h3 {
   color: #1EAEDB;
   text-align: center;
-}
-
-.boxbox {
-  padding-bottom: 5%;;
 }
 
 .project {
@@ -81,13 +77,19 @@ h3 {
 }
 
 #contact {
-  margin-bottom: 5vh;
+  margin-bottom: 1vh;
 }
 
 #hello {
   font-family: 'Space Mono', monospace;
   font-size: xx-large;
 }
+
+#contact-form {
+  color: #1EAEDB;
+  display: none;
+}
+
 
 /* Larger than mobile */
 @media (min-width: 400px) {
@@ -120,7 +122,7 @@ h3 {
 @media (min-width: 1200px) {}
 
 
-input {
+#lastcontainer input {
   position: absolute;
   opacity: 0;
   z-index: -1;

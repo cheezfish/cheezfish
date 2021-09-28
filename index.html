@@ -40,11 +40,13 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-
     <div class="row">
       <div class="twelve columns hero" style="margin-top: 0%">
 
-        <div id="profile-circle" class="five columns offset-by-one"><img id="headshot" src="profile/squareprofile5.png" alt="Imran's Profile Picture"></div>
+        <div id="profile-circle" class="five columns offset-by-one">
+          <img id="headshot" src="profile/squareprofile5.png" alt="Imran's Profile Picture">
+        </div>
+        
         <div id="profile-text" class="five columns offset-by-one">
 
           <h1 id="hello">Hi, this is Imran</h1>
@@ -59,11 +61,10 @@
             <a href="http://soundcloud.com/cheezfish" target="_blank" class="social-icon"><img src="icons/soundcloud.png" alt="soundcloud logo"></a>
           </div>
         </div>
+
       </div>
     </div>
   </div>
-
-
 
   <div class="container">
     <div class="row">
@@ -74,7 +75,41 @@
           <p>Graduate of Robotics Engineering, specialising in UX and Human-Computer Interaction.
             <br> Goal oriented, data driven usability geek. <br> Proficient in a range of softwares/languages.</p>
             <a class="button ten columns offset-by-one" id="downloadCV" href="https://drive.google.com/file/d/1fqZxxAjk8aXe5IBcJbSRwRZuGG4hV8ef/view?usp=sharing"> Download CV</a>
-            <button class="button-primary ten columns offset-by-one columns" id="contact"> Contact Me</button>
+            <button class="button-primary ten columns offset-by-one column" id="contact"> Contact Me</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="contact-form">
+    <div class="row">
+      <div class="twelve columns">
+        <hr>
+        <div class="ten columns offset-by-one">
+          <form action="https://formspree.io/f/mgerqwwl" method="POST">
+            <div class="row">
+              <div class="six columns">
+                <label for="exampleEmailInput">Your email</label>
+                <input name="email" type="email" class="u-full-width" placeholder="test@mailbox.com" id="exampleEmailInput">
+              </div>
+              <div class="six columns">
+                <label for="exampleRecipientInput">Reason for contacting</label>
+                <select name="reason" class="u-full-width" id="exampleRecipientInput">
+                  <option value="Option 1">Questions</option>
+                  <option value="Option 2">Admiration</option>
+                  <option value="Option 3">Can I get your number?</option>
+                </select>
+              </div>
+            </div>
+
+            <label for="exampleMessage">Message</label>
+            <textarea name="message" class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+            <label class="example-send-yourself-copy">
+              <input name="copy" type="checkbox">
+              <span class="label-body">Send a copy to yourself</span>
+            </label>
+            <input name="submit" class="button-primary u-full-width" type="submit" value="Submit">
+          </form>
         </div>
       </div>
     </div>
