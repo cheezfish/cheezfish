@@ -24,10 +24,6 @@ button.onclick = function() {
     }
 };
 
-
-//my function lol
-
-
 var granimInstance = new Granim({
     element: '#canvas-image-blending',
     direction: 'top-bottom',
