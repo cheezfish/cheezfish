@@ -151,13 +151,15 @@ h3 {
   
   .profile-circle {
     margin-right: 2vw;
-    margin-left: 5vw;
+    margin-left: 9vw;
     margin-top: 10vh;
     position: relative;
     border-radius: 50%;
     width: 300px;
     height: 300px;
     overflow: hidden;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
   }
   
   #headshot {
@@ -170,7 +172,7 @@ h3 {
   
   #profile-right {
     margin-top: 12vh;
-    margin-left: 9vw;
+    margin-left: 4vw;
     margin-right: 2vw;
     background-color:rgba(0, 0, 0, 0);
     color: white;
