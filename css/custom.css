@@ -158,8 +158,6 @@ h3 {
     width: 300px;
     height: 300px;
     overflow: hidden;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
   }
   
   #headshot {

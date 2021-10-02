@@ -29,7 +29,7 @@ var granimInstance = new Granim({
     direction: 'top-bottom',
     isPausedWhenNotInView: true,
     image : {
-        source: '/profile/squareprofile2.png',
+        source: '/profile/squareprofile5.png',
         blendingMode: 'soft-light'
     },
     states : {
