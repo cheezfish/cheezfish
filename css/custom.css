@@ -112,7 +112,9 @@ h3 {
   display: none;
 }
 
-
+.downloadCV {
+  color: rgb(255, 255, 255);
+}
 
 /* Larger than mobile */
 @media (min-width: 400px) {
@@ -124,7 +126,7 @@ h3 {
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-  
+
 }
 
 /* Larger than desktop */
@@ -176,10 +178,6 @@ h3 {
     color: white;
     text-align: center;
   }
-
-  #profile-text {
-
-  }
   
   .socials-block {
     display: flex;
@@ -189,10 +187,6 @@ h3 {
     display: inline-block; margin: 0 6%;
   }  
 
-}
-
-.downloadCV {
-  color: rgb(255, 255, 255);
 }
 
 /* Larger than Desktop HD */
@@ -280,7 +274,7 @@ input:checked ~ .tab-content {
     padding-bottom: 5%;
 }
 
-/* ahhahahahahahhahaha */
+/* Title text highlighting CSS */
 
 .underlined {
   color: rgb(255, 255, 255);
